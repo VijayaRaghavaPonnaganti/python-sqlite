@@ -8,7 +8,7 @@ cursor = conn.cursor()
 cursor.execute('''CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY, name TEXT, age INTEGER)''')
 
 #Insert a record 
-cursor.execute("INSERT INTO user (name, age) VALUES (?, ?)", ('Alice', 30))
+cursor.execute("INSERT INTO users (name, age) VALUES (?, ?)", ('Alice', 30))
 
 #Commit the changes
 conn.commit()

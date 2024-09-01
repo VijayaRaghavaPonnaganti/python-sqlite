@@ -14,7 +14,7 @@ cursor.execute("INSERT INTO users (name, age) VALUES (?, ?)", ('Alice', 30))
 conn.commit()
 
 #Query the database
-cursor.execute("SELECT * FROM user")
+cursor.execute("SELECT * FROM users")
 rows = cursor.fetchall()
 
 for row in rows:

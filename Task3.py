@@ -1,3 +1,4 @@
+# Implementing sqlite3 using Python.
 import sqlite3
 
 #connection to a database
